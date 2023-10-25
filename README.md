@@ -12,6 +12,17 @@ Esses testes servem para garantir que a lógica de negócios relacionada à clas
 
 Espera-se que essas verificações garantam o comportamento correto da classe Pessoa e, consequentemente, o funcionamento adequado de partes críticas do software que dependem dessa classe.
 
+Mock:
+Um "mock" é um objeto simulado que substitui um objeto real durante os testes. Ele é usado para simular o comportamento de dependências externas, como serviços web, bancos de dados ou APIs. O objetivo é isolar a unidade de código que está sendo testada, garantindo que ela funcione corretamente, independentemente do comportamento dessas dependências externas.
+
+DAO (Data Access Object):
+DAO é um padrão de projeto que separa a camada de acesso a dados da lógica de negócio de uma aplicação. Um DAO é responsável por fornecer uma interface para acessar, criar, atualizar e excluir dados de uma fonte de dados, como um banco de dados. Em testes, é comum usar um mock do DAO para evitar a dependência de um banco de dados real.
+
+Junit:
+JUnit é um framework de teste unitário amplamente utilizado em Java. Ele fornece uma estrutura para escrever e executar testes automatizados de forma simples e eficiente. 
+
+O JUnit é baseado em anotações, onde você pode marcar métodos como casos de teste e usar asserções para verificar se o resultado esperado é igual ao resultado real.
+
 ## Skills utilizadas:
 <div style="display: inline_block"><br>
    <img align="center" alt="Spring" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
